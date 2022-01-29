@@ -13,7 +13,7 @@ The Blog app will be a classic example of a blog website. You will create a full
 Follow these steps below :
 
 ### Setup
- ```git clone https://github.com/redwing555/railsblog```
+ ```git clone https://github.com/mahbubul14/rails_blog_app/```
 
  ```cd railsblog```
 
