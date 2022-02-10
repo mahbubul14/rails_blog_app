@@ -1,17 +1,14 @@
 class Post < ApplicationRecord
+  has_many :likes
+  has_many :comments
+
   belongs_to :author, class_name: 'User'
-  has_many :comments, dependent: :destroy
-  has_many :likes, dependent: :destroy
 
-  after_save :update_posts_counter
-
-  def most_recent_comments
-    comments.last(5)
+  def post_counter
+    User.increment!(:post_counter)
   end
 
-  private
-
-  def update_posts_counter(value)
-    user.update('posts_counter', value)
+  def five_recent_comments
+    Post.comments.limit(5)
   end
 end
