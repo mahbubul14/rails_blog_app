@@ -7,6 +7,7 @@ The Blog app will be a classic example of a blog website. You will create a full
 ## Built With
 
 - Ruby on Rails
+- Ruby
 
 ## Getting Started
 Follow these steps below :
