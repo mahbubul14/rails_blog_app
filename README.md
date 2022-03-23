@@ -6,16 +6,15 @@ The Blog app will be a classic example of a blog website. You will create a full
 
 ## Built With
 
-- Ruby
 - Ruby on Rails
+- Ruby
 
 ## Getting Started
 Follow these steps below :
 
-### Setup
- ```git clone https://github.com/mahbubul14/rails_blog_app/```
 
- ```cd railsblog```
+### Setup
+ ```git clone https://github.com/mahbubul14/rails-blog/```
 
 ### Prerequisites
 
@@ -44,7 +43,6 @@ Install all Ruby dependecies with:
 - Run ```gem install rspec``` to install Rspec,
 - Run ```rspec spec``` to run all tests.
 - Run ```rspec ./spec/models --format documentation``` to run all tests on models with detailed description.
-
 ## Authors
 
 👤 **Mahbub Alam**
